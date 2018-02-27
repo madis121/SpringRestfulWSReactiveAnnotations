@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringRestfulWSReactiveAnnotations
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Madis
+Implementation-Vendor-Id: SpringRestfulWSReactiveAnnotations
+Build-Jdk: 1.8.0_161
+Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-
+ starter-parent/SpringRestfulWSReactiveAnnotations/
+Created-By: Maven Integration for Eclipse
+
