@@ -29,7 +29,7 @@ public class StudentController {
 	@RequestMapping(value = "/{studentId}", method = RequestMethod.GET)
 	public Mono<Student> getStudent(@PathVariable(value = "schoolId") Long schoolId,
 			@PathVariable(value = "studentId") Long studentId) {
-		return studentRepository.getById(schoolId, studentId);
+		return studentRepository.findById(schoolId, studentId);
 	}
 
 	@RequestMapping(value = "", method = RequestMethod.POST)

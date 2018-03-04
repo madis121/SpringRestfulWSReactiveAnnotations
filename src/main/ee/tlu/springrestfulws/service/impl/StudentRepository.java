@@ -26,7 +26,7 @@ public class StudentRepository {
 		return Flux.fromIterable(school.getStudents().values());
 	}
 
-	public Mono<Student> getById(Long schoolId, Long studentId) {
+	public Mono<Student> findById(Long schoolId, Long studentId) {
 		School school = schoolRepository.getSchools().get(schoolId);
 		if (school == null) {
 			throw new ResourceNotFoundException("School with the id of " + schoolId + " was not found");
